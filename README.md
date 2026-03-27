@@ -20,4 +20,4 @@ Recommended structure:
 Usage
 - Place videos into the class folders above.
 - Open the notebooks to run preprocessing, training, and evaluation steps.
-- Split data into training/validation/test as needed.
+- Split data into training/validation/test.
