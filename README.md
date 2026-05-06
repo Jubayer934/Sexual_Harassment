@@ -3,21 +3,19 @@
 This repository contains notebooks and resources for a simple harassment detection project.
 
 Notebooks:
-- latest1.ipynb — latest experiments and preprocessing
-- classificatin1.ipynb — classification model training and evaluation
+- Timesformer.ipynb, VideoMAE.ipynb, Vivit.ipynb — latest experiments and preprocessing
+- classificatin.ipynb — classification model training and evaluation
 
 Dataset
+- Total Video: 600
+- harassment: 282 videos
+- non-harassment: 318 videos
 - Classes:
-  - harassment: 282 videos
-  - non-harassment: 318 videos
+  - Train: 419 videos
+    - Harassment: 197 Videos
+    - Non Harassment: 222 Videos
+  - Test: 181 videos
+    - Harassment: 85 Videos
+    - Non Harassment: 96 Videos
 
-Recommended structure:
-- harassment/        - 282 video files
-- non-harassment/    - 318 video files
-- latest1.ipynb
-- classificatin1.ipynb
 
-Usage
-- Place videos into the class folders above.
-- Open the notebooks to run preprocessing, training, and evaluation steps.
-- Split data into training/validation/test.
